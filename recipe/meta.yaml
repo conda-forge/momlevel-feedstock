@@ -1,5 +1,5 @@
 {% set name = "momlevel" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/momlevel-{{ version }}.tar.gz
-  sha256: e84390f2f588f221203e6837c11e8141f3d5396bb65644226906b041d4d6c5fc
+  sha256: 001b051dfde44db42986e47e206d646e4fdaca00b380c8a807921789099d5821
 
 build:
   noarch: python
@@ -24,9 +24,9 @@ requirements:
     - importlib-metadata <5.0.0
     - nc-time-axis
     - netcdf4
-    - numpy >=1.21.0
-    - scikit-learn >=1.0.1
-    - xarray >=0.20.0
+    - numpy
+    - scikit-learn
+    - xarray
     - xgcm
 
 test:
