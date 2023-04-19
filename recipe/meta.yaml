@@ -1,5 +1,5 @@
 {% set name = "momlevel" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/momlevel-{{ version }}.tar.gz
-  sha256: 001b051dfde44db42986e47e206d646e4fdaca00b380c8a807921789099d5821
+  sha256: d7e83bdc2fd71523f90a64bbca06cd1a445e3664836277b54e1442563e4c5e44
 
 build:
   noarch: python
