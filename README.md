@@ -1,11 +1,11 @@
-About momlevel
-==============
+About momlevel-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/momlevel-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jkrasting/momlevel
 
 Package license: LicenseRef-PUBLIC-DOMAIN
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/momlevel-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools to diagnose sea level in the MOM Ocean Model
 
